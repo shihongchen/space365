@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Facebook Page Replica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+
+<body>
+
+    <select class="languageSelect">
+
+        <option value="简体中文">简体中文</option>
+        
+        <option value="English">English</option>
+        
+        ……
+        
+    </select>
+
+    
+    <div class="container">
+        <div class="left">
+            <img src="logo-color-1.svg" alt=""> 
+            <p style="margin-top:20px;" >登录space365</p>
+        </div>
+    
+        <div class="tabs">
+            <div class="tab-2">
+              <label for="tab2-1">手机号</label>
+              <input id="tab2-1" name="tabs-two" type="radio" checked="checked">
+              <div class="right">
+                <form action="">
+                    <input type="text" placeholder="Email addess or phone number">
+                    <input type="button"  class="loginBtn" id="accept" disabled="true" value="下一步">
+                    
+                </form>
+                <input type="checkBox" class= "checkBox1" onclick="if (this.checked) {enable()} else {disable()}"><h9>  我已阅读并同意服务协议、隐私权政策</h9>
+                
+                
+            </div>
+            </div>
+            <div class="tab-2">
+              <label for="tab2-2">邮箱</label>
+              <input id="tab2-2" name="tabs-two" type="radio">
+              <div class="right">
+                <form action="">
+                    <input type="text" placeholder="Email addess or phone number">
+                    <input type="button"  class="loginBtn" id="accept" disabled="true" value="下一步">
+                </form>
+                <input type="checkBox" class= "checkBox1" onclick="if (this.checked) {enable()} else {disable()}"><h9>  我已阅读并同意服务协议、隐私权政策</h9>
+            </div>
+            </div>
+        </div>
+
+        
+
+    
+        
+     
+
+
+</body>
+</html>
+
+<script type="text/javascript" >
+    function disable()
+      {
+      document.getElementById("accept").disabled=true
+      }
+    function enable()
+      {
+      document.getElementById("accept").disabled=false
+      }
+</script>
