@@ -1,78 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
-    <title>Facebook Page Replica</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 
-
-
-
-<body>
-
-    <select class="languageSelect">
-
-        <option value="简体中文">简体中文</option>
-        
-        <option value="English">English</option>
-        
-        ……
-        
-    </select>
-
-    
-    <div class="container">
-        <div class="left">
-            <img src="logo-color-1.svg" alt=""> 
-            <p style="margin-top:20px;" >登录space365</p>
+<body class="mpage_wrap" id="list_page">
+    <div class="main_box">
+        <div class="lo_top">
+            <a href="">
+                <img src="logo-color-1.svg" alt=""> 
+            </a>
         </div>
-    
-        <div class="tabs">
-            <div class="tab-2">
-              <label for="tab2-1">手机号</label>
-              <input id="tab2-1" name="tabs-two" type="radio" checked="checked">
-              <div class="right">
-                <form action="">
-                    <input type="text" placeholder="Email addess or phone number">
-                    <input type="button"  class="loginBtn" id="accept" disabled="true" value="下一步">
-                    
-                </form>
-                <input type="checkBox" class= "checkBox1" onclick="if (this.checked) {enable()} else {disable()}"><h9>  我已阅读并同意服务协议、隐私权政策</h9>
-                
-                
-            </div>
-            </div>
-            <div class="tab-2">
-              <label for="tab2-2">邮箱</label>
-              <input id="tab2-2" name="tabs-two" type="radio">
-              <div class="right">
-                <form action="">
-                    <input type="text" placeholder="Email addess or phone number">
-                    <input type="button"  class="loginBtn" id="accept" disabled="true" value="下一步">
-                </form>
-                <input type="checkBox" class= "checkBox1" onclick="if (this.checked) {enable()} else {disable()}"><h9>  我已阅读并同意服务协议、隐私权政策</h9>
-            </div>
-            </div>
-        </div>
-
-        
-
-    
-        
-     
-
-
+    </div>
 </body>
 </html>
 
-<script type="text/javascript" >
-    function disable()
-      {
-      document.getElementById("accept").disabled=true
-      }
-    function enable()
-      {
-      document.getElementById("accept").disabled=false
-      }
-</script>
+<!-- <header>
+    
+    <div class="nav">
+        <span class="close-btn"></span>
+        <a href="" class="register-btn">注册</a>
+   </div>
+    <h1>欢迎登录平安官网</h1>
+</header>
+
+<div class="login-tab">
+　　<ul class="tab">
+　　　　<li class="no">短信验证码登陆</li>
+　　　　<li>账号密码登录</li>
+　　</ul>
+　　<ul class="tab-content">
+　　　　<li>
+　　　　　　<div class="input-item tel-item">
+　　　　　　　　<input class="tel" placeholder="请输入手机号码/用户名/身份证">
+　　　　　　　　<span></span>
+　　　　　　　</div>
+　　　　　　<div class="input-item code-item">
+　　　　　　　　<input type="text" class="tel" placeholder="请输入密码">
+　　　　　　　　<button class="code-btn" >忘记密码?</button>
+　　　　　　</div>
+　　　　</li>
+　　</ul>
+　　<div class="login">
+　　　　<button type="text" value="登录">登录</button>
+　　</div>
+　　<p class="tips">登录即表示您已同意
+　　　　<a href="https://member.pingan.com.cn/pinganone/pa/paoasp.screen">《隐私条款和服务条款》</a>
+　　</p>
+
+</div> -->
